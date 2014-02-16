@@ -21,6 +21,10 @@
 		932EA7C218AF351D0003D9A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932EA7A418AF351D0003D9A3 /* UIKit.framework */; };
 		932EA7CA18AF351D0003D9A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 932EA7C818AF351D0003D9A3 /* InfoPlist.strings */; };
 		932EA7CC18AF351D0003D9A3 /* Doge_Price_WowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 932EA7CB18AF351D0003D9A3 /* Doge_Price_WowTests.m */; };
+		932EA7D918B184880003D9A3 /* doge1.png in Resources */ = {isa = PBXBuildFile; fileRef = 932EA7D818B184880003D9A3 /* doge1.png */; };
+		932EA7DB18B1848E0003D9A3 /* doge2.png in Resources */ = {isa = PBXBuildFile; fileRef = 932EA7DA18B1848E0003D9A3 /* doge2.png */; };
+		932EA7DF18B185160003D9A3 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 932EA7DD18B185160003D9A3 /* forward.png */; };
+		932EA7E118B185360003D9A3 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 932EA7E018B185360003D9A3 /* back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		932EA7C718AF351D0003D9A3 /* Doge Price WowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Doge Price WowTests-Info.plist"; sourceTree = "<group>"; };
 		932EA7C918AF351D0003D9A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		932EA7CB18AF351D0003D9A3 /* Doge_Price_WowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doge_Price_WowTests.m; sourceTree = "<group>"; };
+		932EA7D818B184880003D9A3 /* doge1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doge1.png; sourceTree = "<group>"; };
+		932EA7DA18B1848E0003D9A3 /* doge2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doge2.png; sourceTree = "<group>"; };
+		932EA7DD18B185160003D9A3 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		932EA7E018B185360003D9A3 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 		932EA7A618AF351D0003D9A3 /* Doge Price Wow */ = {
 			isa = PBXGroup;
 			children = (
+				932EA7E018B185360003D9A3 /* back.png */,
+				932EA7DD18B185160003D9A3 /* forward.png */,
+				932EA7DA18B1848E0003D9A3 /* doge2.png */,
+				932EA7D818B184880003D9A3 /* doge1.png */,
 				932EA7AF18AF351D0003D9A3 /* NPAppDelegate.h */,
 				932EA7B018AF351D0003D9A3 /* NPAppDelegate.m */,
 				932EA7B218AF351D0003D9A3 /* Main.storyboard */,
@@ -229,7 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932EA7DF18B185160003D9A3 /* forward.png in Resources */,
+				932EA7D918B184880003D9A3 /* doge1.png in Resources */,
 				932EA7B918AF351D0003D9A3 /* Images.xcassets in Resources */,
+				932EA7DB18B1848E0003D9A3 /* doge2.png in Resources */,
+				932EA7E118B185360003D9A3 /* back.png in Resources */,
 				932EA7AB18AF351D0003D9A3 /* InfoPlist.strings in Resources */,
 				932EA7B418AF351D0003D9A3 /* Main.storyboard in Resources */,
 			);

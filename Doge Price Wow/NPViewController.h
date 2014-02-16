@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NPViewController : UIViewController
-
+@interface NPViewController : UIViewController <NSURLConnectionDelegate>
+@property (nonatomic,strong)NSMutableData* returnData;
+@property (nonatomic,strong)  NSURLConnection* currentConnection;
 @end
