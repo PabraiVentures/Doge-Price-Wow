@@ -25,6 +25,10 @@
 		932EA7DB18B1848E0003D9A3 /* doge2.png in Resources */ = {isa = PBXBuildFile; fileRef = 932EA7DA18B1848E0003D9A3 /* doge2.png */; };
 		932EA7DF18B185160003D9A3 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 932EA7DD18B185160003D9A3 /* forward.png */; };
 		932EA7E118B185360003D9A3 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 932EA7E018B185360003D9A3 /* back.png */; };
+		9338D07F18B30E4400C2D2CF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338D07C18B30E4400C2D2CF /* logo.png */; };
+		9338D08018B30E4400C2D2CF /* logo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338D07D18B30E4400C2D2CF /* logo copy.png */; };
+		9338D08118B30E4400C2D2CF /* logo copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338D07E18B30E4400C2D2CF /* logo copy 2.png */; };
+		93471B5618B2AE5500F79021 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93471B5518B2AE5500F79021 /* iAd.framework */; };
 		93CB9C5418B1884000698045 /* dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 93CB9C5318B1884000698045 /* dollar.png */; };
 		93CB9C5618B1891900698045 /* bitcoin.png in Resources */ = {isa = PBXBuildFile; fileRef = 93CB9C5518B1891900698045 /* bitcoin.png */; };
 		93CB9C5A18B189FC00698045 /* dollarsimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 93CB9C5918B189FC00698045 /* dollarsimple.png */; };
@@ -64,6 +68,10 @@
 		932EA7DA18B1848E0003D9A3 /* doge2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doge2.png; sourceTree = "<group>"; };
 		932EA7DD18B185160003D9A3 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
 		932EA7E018B185360003D9A3 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		9338D07C18B30E4400C2D2CF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		9338D07D18B30E4400C2D2CF /* logo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo copy.png"; sourceTree = "<group>"; };
+		9338D07E18B30E4400C2D2CF /* logo copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo copy 2.png"; sourceTree = "<group>"; };
+		93471B5518B2AE5500F79021 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		93CB9C5318B1884000698045 /* dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dollar.png; sourceTree = "<group>"; };
 		93CB9C5518B1891900698045 /* bitcoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoin.png; sourceTree = "<group>"; };
 		93CB9C5918B189FC00698045 /* dollarsimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dollarsimple.png; path = ../dollarsimple.png; sourceTree = "<group>"; };
@@ -74,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93471B5618B2AE5500F79021 /* iAd.framework in Frameworks */,
 				932EA7A318AF351D0003D9A3 /* CoreGraphics.framework in Frameworks */,
 				932EA7A518AF351D0003D9A3 /* UIKit.framework in Frameworks */,
 				932EA7A118AF351D0003D9A3 /* Foundation.framework in Frameworks */,
@@ -115,6 +124,7 @@
 		932EA79F18AF351D0003D9A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93471B5518B2AE5500F79021 /* iAd.framework */,
 				932EA7A018AF351D0003D9A3 /* Foundation.framework */,
 				932EA7A218AF351D0003D9A3 /* CoreGraphics.framework */,
 				932EA7A418AF351D0003D9A3 /* UIKit.framework */,
@@ -126,6 +136,9 @@
 		932EA7A618AF351D0003D9A3 /* Doge Price Wow */ = {
 			isa = PBXGroup;
 			children = (
+				9338D07C18B30E4400C2D2CF /* logo.png */,
+				9338D07D18B30E4400C2D2CF /* logo copy.png */,
+				9338D07E18B30E4400C2D2CF /* logo copy 2.png */,
 				93CB9C5918B189FC00698045 /* dollarsimple.png */,
 				93CB9C5518B1891900698045 /* bitcoin.png */,
 				93CB9C5318B1884000698045 /* dollar.png */,
@@ -252,7 +265,10 @@
 			files = (
 				93CB9C5618B1891900698045 /* bitcoin.png in Resources */,
 				932EA7DF18B185160003D9A3 /* forward.png in Resources */,
+				9338D07F18B30E4400C2D2CF /* logo.png in Resources */,
+				9338D08118B30E4400C2D2CF /* logo copy 2.png in Resources */,
 				932EA7D918B184880003D9A3 /* doge1.png in Resources */,
+				9338D08018B30E4400C2D2CF /* logo copy.png in Resources */,
 				932EA7B918AF351D0003D9A3 /* Images.xcassets in Resources */,
 				93CB9C5418B1884000698045 /* dollar.png in Resources */,
 				93CB9C5A18B189FC00698045 /* dollarsimple.png in Resources */,
