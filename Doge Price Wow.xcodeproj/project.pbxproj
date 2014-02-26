@@ -26,8 +26,9 @@
 		932EA7DF18B185160003D9A3 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 932EA7DD18B185160003D9A3 /* forward.png */; };
 		932EA7E118B185360003D9A3 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 932EA7E018B185360003D9A3 /* back.png */; };
 		9338D07F18B30E4400C2D2CF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338D07C18B30E4400C2D2CF /* logo.png */; };
-		9338D08018B30E4400C2D2CF /* logo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338D07D18B30E4400C2D2CF /* logo copy.png */; };
-		9338D08118B30E4400C2D2CF /* logo copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338D07E18B30E4400C2D2CF /* logo copy 2.png */; };
+		9338D08318B30F9200C2D2CF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338D08218B30F9200C2D2CF /* icon@2x.png */; };
+		9338D08518B3107300C2D2CF /* starts.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338D08418B3107300C2D2CF /* starts.png */; };
+		9338D08718B3115000C2D2CF /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338D08618B3115000C2D2CF /* start.png */; };
 		93471B5618B2AE5500F79021 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93471B5518B2AE5500F79021 /* iAd.framework */; };
 		93CB9C5418B1884000698045 /* dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 93CB9C5318B1884000698045 /* dollar.png */; };
 		93CB9C5618B1891900698045 /* bitcoin.png in Resources */ = {isa = PBXBuildFile; fileRef = 93CB9C5518B1891900698045 /* bitcoin.png */; };
@@ -45,7 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		932EA79D18AF351D0003D9A3 /* Doge Price Wow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doge Price Wow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		932EA79D18AF351D0003D9A3 /* Doge Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doge Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		932EA7A018AF351D0003D9A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		932EA7A218AF351D0003D9A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		932EA7A418AF351D0003D9A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -69,8 +70,9 @@
 		932EA7DD18B185160003D9A3 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
 		932EA7E018B185360003D9A3 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		9338D07C18B30E4400C2D2CF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		9338D07D18B30E4400C2D2CF /* logo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo copy.png"; sourceTree = "<group>"; };
-		9338D07E18B30E4400C2D2CF /* logo copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo copy 2.png"; sourceTree = "<group>"; };
+		9338D08218B30F9200C2D2CF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		9338D08418B3107300C2D2CF /* starts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starts.png; sourceTree = "<group>"; };
+		9338D08618B3115000C2D2CF /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
 		93471B5518B2AE5500F79021 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		93CB9C5318B1884000698045 /* dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dollar.png; sourceTree = "<group>"; };
 		93CB9C5518B1891900698045 /* bitcoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoin.png; sourceTree = "<group>"; };
@@ -115,7 +117,7 @@
 		932EA79E18AF351D0003D9A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				932EA79D18AF351D0003D9A3 /* Doge Price Wow.app */,
+				932EA79D18AF351D0003D9A3 /* Doge Price.app */,
 				932EA7BE18AF351D0003D9A3 /* Doge Price WowTests.xctest */,
 			);
 			name = Products;
@@ -136,9 +138,10 @@
 		932EA7A618AF351D0003D9A3 /* Doge Price Wow */ = {
 			isa = PBXGroup;
 			children = (
+				9338D08618B3115000C2D2CF /* start.png */,
+				9338D08418B3107300C2D2CF /* starts.png */,
+				9338D08218B30F9200C2D2CF /* icon@2x.png */,
 				9338D07C18B30E4400C2D2CF /* logo.png */,
-				9338D07D18B30E4400C2D2CF /* logo copy.png */,
-				9338D07E18B30E4400C2D2CF /* logo copy 2.png */,
 				93CB9C5918B189FC00698045 /* dollarsimple.png */,
 				93CB9C5518B1891900698045 /* bitcoin.png */,
 				93CB9C5318B1884000698045 /* dollar.png */,
@@ -203,7 +206,7 @@
 			);
 			name = "Doge Price Wow";
 			productName = "Doge Price Wow";
-			productReference = 932EA79D18AF351D0003D9A3 /* Doge Price Wow.app */;
+			productReference = 932EA79D18AF351D0003D9A3 /* Doge Price.app */;
 			productType = "com.apple.product-type.application";
 		};
 		932EA7BD18AF351D0003D9A3 /* Doge Price WowTests */ = {
@@ -234,6 +237,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = NathanPabrai;
 				TargetAttributes = {
+					932EA79C18AF351D0003D9A3 = {
+						DevelopmentTeam = PM5CQGZAJM;
+					};
 					932EA7BD18AF351D0003D9A3 = {
 						TestTargetID = 932EA79C18AF351D0003D9A3;
 					};
@@ -266,15 +272,16 @@
 				93CB9C5618B1891900698045 /* bitcoin.png in Resources */,
 				932EA7DF18B185160003D9A3 /* forward.png in Resources */,
 				9338D07F18B30E4400C2D2CF /* logo.png in Resources */,
-				9338D08118B30E4400C2D2CF /* logo copy 2.png in Resources */,
 				932EA7D918B184880003D9A3 /* doge1.png in Resources */,
-				9338D08018B30E4400C2D2CF /* logo copy.png in Resources */,
 				932EA7B918AF351D0003D9A3 /* Images.xcassets in Resources */,
 				93CB9C5418B1884000698045 /* dollar.png in Resources */,
+				9338D08718B3115000C2D2CF /* start.png in Resources */,
 				93CB9C5A18B189FC00698045 /* dollarsimple.png in Resources */,
 				932EA7DB18B1848E0003D9A3 /* doge2.png in Resources */,
 				932EA7E118B185360003D9A3 /* back.png in Resources */,
+				9338D08318B30F9200C2D2CF /* icon@2x.png in Resources */,
 				932EA7AB18AF351D0003D9A3 /* InfoPlist.strings in Resources */,
+				9338D08518B3107300C2D2CF /* starts.png in Resources */,
 				932EA7B418AF351D0003D9A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,12 +428,15 @@
 		932EA7D018AF351D0003D9A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Doge Price Wow/Doge Price Wow-Prefix.pch";
 				INFOPLIST_FILE = "Doge Price Wow/Doge Price Wow-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Doge Price";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -434,12 +444,15 @@
 		932EA7D118AF351D0003D9A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Doge Price Wow/Doge Price Wow-Prefix.pch";
 				INFOPLIST_FILE = "Doge Price Wow/Doge Price Wow-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Doge Price";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

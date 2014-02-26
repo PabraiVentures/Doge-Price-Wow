@@ -166,7 +166,7 @@
     bimage=[UIImage imageNamed:@"back.png"];
   }
   [((UIButton*)sender) setImage:bimage forState:UIControlStateNormal];
-  
+  [self convertAction:self];
 }
 
 - (IBAction)currChanged:(id)sender {

@@ -114,8 +114,8 @@
     </scenes>
     <resources>
         <image name="bitcoin.png" width="45" height="76"/>
-        <image name="doge1.png" width="6000" height="6000"/>
-        <image name="doge2.png" width="6000" height="6000"/>
+        <image name="doge1.png" width="400" height="400"/>
+        <image name="doge2.png" width="800" height="800"/>
         <image name="dollarsimple.png" width="500" height="500"/>
         <image name="forward.png" width="24" height="24"/>
     </resources>
